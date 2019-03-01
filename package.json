@@ -1,7 +1,6 @@
 {
   "name": "ranked-todoMVC",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,5 +11,14 @@
   "license": "ISC",
   "devDependencies": {
     "http-server": "^0.11.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trabnett/ranked-todoMVC.git"
+  },
+  "bugs": {
+    "url": "https://github.com/trabnett/ranked-todoMVC/issues"
+  },
+  "homepage": "https://github.com/trabnett/ranked-todoMVC#readme",
+  "description": ""
 }

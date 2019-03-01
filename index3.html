@@ -1,0 +1,29 @@
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body class="container mt-3">
+    <h1>
+        Music Lover's World
+    </h1>
+    <h2>
+        Your songs
+    </h2>
+    <div id="ListContainer"></div>
+    <h2>
+        Add New Songs!
+    </h2>
+    <form onsubmit="addNewSong()">
+        <label>
+            Song Title
+            <input type="text" value="Master of Puppets" id="SongTitle">
+        </label>
+        <label>
+            Artist
+            <input type="text" value="Metallica" id="SongArtist">
+        </label>
+        <button type="submit">Add!</button>
+
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.1/redux.js"></script>
+    <script src="ranked-todoMVC.js"></script>
+</body>
