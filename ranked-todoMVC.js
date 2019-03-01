@@ -63,10 +63,10 @@ function render({songs}){
 }
 
 function addNewSong(){
-    console.log("adding song!");
     event.preventDefault();
     let title = document.getElementById("SongTitle");
     let artist = document.getElementById("SongArtist");
+
     store.dispatch({
         type:`ADD_SONG`,
         title:title.value,
